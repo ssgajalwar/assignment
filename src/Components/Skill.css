@@ -1,0 +1,73 @@
+.skills{
+    width: 100%;
+    height: auto;
+    background: #110e19;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    font-size: 300%;
+}
+.team{
+    display: flex;
+   margin-bottom: 3rem;
+    flex-direction: column;
+}
+.percent{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.percent-icon{
+    font-size: 900%;
+    color: #110e19;
+    text-shadow: 0 1px 1px #3982ff, 1px 0 1px #de39ff;
+ 
+}
+.text-ourteam{
+    font-size: 220%;
+    color: #110e19;
+    text-shadow: 0 1px 1px #3982ff, 1px 0 1px #de39ff;
+}
+.text-skills{
+    color: white;
+}
+.photography,.graphic,.web{
+    width: 80%;
+    height: .3rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    background: #302d37;
+    margin-top: 1rem;
+}
+.stats{
+    color: white;
+}
+.stats-div{
+    font-size: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.filled1{
+    height: 100%;
+    width: 90%;
+    background: #3982ff;
+}
+.filled2{
+    height: 100%;
+    width: 80%;
+    background: #de39ff;
+}
+.filled3{
+    height: 100%;
+    width: 65%;
+    background: #fd6006;
+}
+.skill-percent{
+    color: transparent;
+    background-image: linear-gradient(90deg,#de39ff,#676dff);
+    background-clip: text;
+}

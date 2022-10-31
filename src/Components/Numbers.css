@@ -1,0 +1,39 @@
+.numbers{
+    width: 100%;
+    height: auto;
+    background-color: #110e19;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+.numbers h1{
+    font-size: 600%;
+    color: #110e19;
+    text-shadow: 0 1px 1px #3982ff, 1px 0 1px #de39ff;
+}
+.numbers h3{
+    font-size: 150%;
+    color: white;
+    margin-top: 1rem;
+
+}
+.numbers p{
+    margin-top: 1rem;
+
+}
+.num-card1{
+    margin: 1rem;
+    width: 15rem;
+    height: auto;
+}
+.num-card2{
+    margin: 1rem;
+    width: 15rem;
+    height: auto;
+}
+.num-card3{
+    margin: 1rem;
+    width: 15rem;
+    height: auto;
+}

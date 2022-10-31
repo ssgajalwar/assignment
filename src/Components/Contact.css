@@ -1,0 +1,24 @@
+.contact{
+    width: 100%;
+    height: auto;
+    background-color: #110e19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    line-height: 6rem;
+}
+.text-lets{
+    margin-top: 2rem;
+    color: white;
+    font-size: 700%;
+}
+.text-chat{
+    font-size: 700%;
+    color: #110e19;
+    text-shadow: 0 1px 1px #3982ff, 1px 0 1px #de39ff;
+}
+.contact p{
+   color: #626a8a;
+}

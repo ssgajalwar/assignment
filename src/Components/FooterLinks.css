@@ -1,0 +1,88 @@
+.footerlinks{
+    color: #626a8a;
+    background-color: #110e19;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+}
+
+.address img,.email img ,.phone img{
+    height: 5vh;
+    width: auto;
+}
+.description-footer{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: auto;
+    margin-left:10vw;
+    
+
+}
+.contact-footer{
+    width: auto;
+    height: 25vh;
+}
+.contact-footer h3{
+    color: white;
+}
+.contact-footer p{
+    width: 20rem;
+}
+.description-ul{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.description-ul li{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+.address{
+    width: 15rem;
+}
+.address p,.email p,.phone p{
+    margin-left: 1rem;
+}
+.address p,.address img,.email p,.email img,.phone p,.phone img{
+    margin-top: 1rem;
+}
+.email{
+    background-image: linear-gradient(100deg, #de39ff, #3982ff);  
+    background-clip: text;
+    color: transparent;
+}
+.footer-links-box{
+    margin-right: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.links-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+.links-ul h2{
+    color: white;
+
+}
+.links-ul li{
+    font-size: 1rem;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+.links-ul li:hover{
+    background-image: linear-gradient(100deg, #de39ff, #3982ff);
+    background-clip: text;
+    color: transparent;
+}

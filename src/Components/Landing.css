@@ -1,0 +1,42 @@
+/* landing page */
+.landing-page-main{
+    height: 90vh;
+    width: 100%;
+}
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: #110e19;
+    color: white;
+  }
+  .text-main{
+      min-height: 60vh;
+      font-size: 600%;
+      font-weight: 900;
+      letter-spacing: -6px;
+      line-height: 1.5em;
+      max-width: 60rem;
+  }
+  .sub-text{
+      color: transparent;
+      background-size: 100%;
+      background-image: linear-gradient(90deg,#de39ff,#676dff);
+      background-clip: text;
+      
+  }
+  
+  /* landing page button */
+  
+  .landing-btn-div{
+         height: 35px;
+         width: 90px;
+         display: flex;
+         justify-content: center;
+         margin-bottom: 3rem;
+         transform: translateY(-3rem);
+  }
+  
